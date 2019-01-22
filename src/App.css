@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+.btn {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.container {
+    background: #f2f2f2;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 48px 48px 81px 48px;
+    font-family: Roboto;
+}
+
+header {
+    padding-bottom: 16px;
+}
+
+header h1 {
+    font-size: 82px;
+    margin-bottom: 76px;
+}
+
+.input-search {
+    width: 340px;
+    height: 40px;
+    padding: 8px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    font-size: 16px;
+}
+
+.btn-green {
+    background: #00aa87;
+    color: #fff;
+    padding: 10px 16px;
+    width: 215px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.btn-close {
+    background: transparent;
+    border: none;
+}
+
+.header-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 0 50%;
+    font-family: Roboto;
+}
+
+.project-block {
+    background: #fff;
+    padding: 16px 24px 0 24px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.12), 0 0 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.project-block h2 {
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    cursor: pointer;
+    text-transform: none;
+    max-width: 615px;
+    width: 100%;
+}
+
+.bottom-project,
+.bottom-vacancy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.item-counter span {
+    margin-right: 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.item-counter a {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: 0.5px;
+    color: #00aa87;
+}
+
+.item-close a {
+    color: rgba(0, 0, 0, 0.37);
+    padding-left: 50px;
+}
+
+.vacancy-block {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.vacancy-block h4 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.87);
+    padding-top: 16px;
+    padding-bottom: 5px;
+}
+
+.comment-block span {
+    font-family: Roboto;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.57);
+    padding-left: 10px;
+}
+
+.comment-block img {
+    position: relative;
+    vertical-align: middle;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.modal-header h2 {
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000 !important;
+    padding-bottom: 15px;
+}
+
+.modal-header img {
+    top: 30px;
+    right: 24px;
+    position: absolute;
+}
+
+form {
+    width: 100%;
+    padding-top: 24px;
+}
+
+.modal-content input {
+    width: 433px;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    margin-right: 5px;
+}
+
+.modal-content .add {
+    width: 130px;
+    height: 36px;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
